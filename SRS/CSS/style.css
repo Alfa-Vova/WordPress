@@ -1,0 +1,252 @@
+* {
+  font-family: Roboto, sans-serif; }
+
+.promo {
+  min-height: 800px;
+  background: url("../img/promo_background.jpg") center center/cover no-repeat;
+  padding: 39px 0 62px 0; }
+  .promo .logo_img {
+    display: block;
+    margin: 0 auto; }
+  .promo .logo_text {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .promo_h1 {
+    margin-top: 53px;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f9bf3b; }
+  .promo_h2 {
+    margin-top: 21px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .promo_h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f9bf3b; }
+  .promo_text {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center; }
+    .promo_text span {
+      font-weight: 700;
+      color: #f9bf3b; }
+  .promo_button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 69px;
+    width: 321px;
+    height: 80px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#2798b9), to(#3ab6da));
+    background-image: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    border-radius: 8px;
+    -webkit-box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
+            box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .promo_subtext {
+    margin-top: 69px;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center; }
+  .promo_arow {
+    margin-top: 13px;
+    text-align: center; }
+
+.intensive {
+  height: 604px;
+  padding: 85px 0 75px;
+  background-color: #efefef; }
+  .intensive_title {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center; }
+  .intensive_yellow_blok {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px; }
+  .intensive_subtitle {
+    margin-top: 17px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center; }
+  .intensive_program {
+    margin-top: 45px; }
+    .intensive_program .program_img {
+      text-align: center; }
+    .intensive_program .program_text {
+      margin-top: 33px;
+      font-size: 15px;
+      line-height: 21px;
+      font-weight: 300;
+      color: #4a4a4a;
+      text-align: center; }
+
+.optimization {
+  min-height: 550px;
+  background-image: url("../img/girl.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 48px; }
+  .optimization_title {
+    display: inline-block;
+    margin-top: 102px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd; }
+  .optimization_text {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #4a4a4a; }
+    .optimization_text .bold {
+      font-weight: 700; }
+
+.end_of_training {
+  height: 447px;
+  padding: 86px 0 79px 0;
+  background: url("../img/end_of_training.jpg") center center/cover no-repeat; }
+  .end_of_training_title {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #efefef;
+    text-align: center; }
+  .end_of_training_yellow_blok {
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b; }
+  .end_of_training_opportunities {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 41px; }
+    .end_of_training_opportunities .opportunities {
+      display: block;
+      margin: 0 auto;
+      width: 198px; }
+      .end_of_training_opportunities .opportunities .opportunities_img {
+        display: block;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 115px;
+        height: 115px;
+        background-color: #b4e2ff;
+        border-radius: 100%; }
+      .end_of_training_opportunities .opportunities .opportunities_text {
+        font-size: 17px;
+        font-weight: 300;
+        color: #efefef;
+        text-align: center; }
+
+.gift {
+  height: 628px;
+  background-color: #efefef;
+  padding: 86px 0 83px 0; }
+  .gift_holiday {
+    text-align: center; }
+  .gift_text {
+    margin-top: 42px;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+    text-align: center; }
+  .gift_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 321px;
+    height: 80px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#2798b9), to(#3ab6da));
+    background-image: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    -webkit-box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
+            box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff; }
+
+.webinar {
+  min-height: 115px;
+  padding: 89px 0 64px 0; }
+  .webinar_img {
+    text-align: center; }
+  .webinar_title {
+    margin-top: 37px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center; }
+  .webinar_h2 {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    text-align: center; }
+  .webinar_subtitle {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4a4a4a; }
+
+footer {
+  height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0; }
+  footer .text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: #888888; }
+    footer .text a {
+      font-size: 15px;
+      font-weight: 300;
+      color: #888888;
+      text-decoration: underline; }
+    footer .text .tel {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
